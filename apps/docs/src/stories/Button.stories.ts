@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
 
-import { Button } from './Button';
+import { Button } from '@josuedantas/designsystem-button';
 
 const meta = {
 	title: 'Example/Button',
@@ -20,6 +20,6 @@ export const Primary: Story = {
 	args: {
 		variant: 'primary',
 		size: 'md',
-		label: 'Primary Button',
+		children: 'Primary Button',
 	},
 };
